@@ -1,0 +1,84 @@
+
+<html>
+  <head>
+    <title>Car</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/contact.css">
+  </head>
+  <body>  
+    <header>
+      <h1>Car</h1>
+      <img src="Image&Video/logo1.png" alt="Logo" ">
+      <nav>
+        <ul>
+          <li><a href="index.html" class="btn">Home</a></li>
+          <li><a href="contact.html" class="btn">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <div class="container">
+      <aside>
+        <h2>Other Cars</h2>
+        <ul>
+          <li><a href="https://www.mercedes-benz.ca/en/vehicles/class/maybach-gls/suv">GLS 600</a></li>
+          <li><a href="https://www.mercedes-benz.ca/en/vehicles/model/s-class/maybach/s680z4">S680</a></li>
+          <li><a href="https://www.mercedes-benz.ca/en/vehicles/class/amg-gt-4-door/coupe">GT 63</a></li>
+        </ul>
+      </aside>
+    
+    <main>
+      <h2>Contact Us</h2>
+
+        
+        <form id="contactForm"  method="post"  autocomplete="on">
+          
+          <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+    
+            <label for="employment">Employment Status:</label>
+            <select id="employment" name="employment" required>
+              <option value="">Select Option</option>
+              <option value="Student">Student</option>
+              <option value="Employed Full-time">Employed Full-time</option>
+              <option value="Employed Part-time">Employed Part-time</option>
+              <option value="Retired">Retired</option>
+              <option value="Other">Other</option>
+            </select>
+
+            <legend>How did you hear about our site?</legend>
+            <label><input type="radio" name="howHeard" value="Social Media">Social Media</label>
+            <label><input type="radio" name="howHeard" value="Friend">Friend</label>
+            <label><input type="radio" name="howHeard" value="Search Engine">Search Engine</label>
+            <label><input type="radio" name="howHeard" value="Other">Other</label>
+          
+
+          
+            <legend>Tell Us what you think!</legend>
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" placeholder="Enter your comments here"></textarea>
+
+          
+            <legend>Submit</legend>
+            <label><input type="checkbox" name="notRobot" required> I am not a robot.</label>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+          </fieldset>
+          
+        </form></main>
+  </div>
+  
+  <footer>
+    <p>&copy; 2023 Karm Patel | 8884905</p>
+  </footer>
+  
+</body>
+</html>
